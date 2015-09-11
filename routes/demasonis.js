@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET demasonis listing. */
+/* POST demasonis listing. */
 router.post('/', function(req, res, next) {
 	var req_body = req.body
 	
