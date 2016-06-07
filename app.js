@@ -5,8 +5,13 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+// var jquery = require('jquery'); //jquery js added
+
 var routes = require('./routes/index');
 var demasonis = require('./routes/demasonis');
+
+var db = require('./model/db');
+var blob = require('./model/demasonis');
 
 var app = express();
 
